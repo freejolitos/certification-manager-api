@@ -1,0 +1,23 @@
+﻿{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "YOUR_USERNAME",
+        "password": "YOUR_PASSWORD",
+        "database": "YOUR_DATABASENAME"
+    },
+    "secret": "YOUR_SECRET",
+    "emailFrom": "YOUR_MAIL@EXAMPLE.COM",
+    "smtpOptions": {
+        "port": 465,
+        "host": "YOUR_HOST",
+        "auth": {
+            "user": "YOUR_USERNAME",
+            "pass": "YOUR_PASSWORD"
+        },
+        "secure": true,
+        "tls": {
+            "rejectUnauthorized": false
+        }
+    }
+}
